@@ -1,14 +1,16 @@
 <% provide(:title,"Home") %>
 <%# <link src="./app/assets/stylesheets/home.css" rel="stylesheet"> %>
 <div >
-  <h1><Strong class="welcome">Welcome to TinyWin</strong></h1>
+  <p class="welcome">Welcome to TinyWin</p>
 </div>
-<div class="intro">
-<p>Sign up and start posting your wins!</p>
+<div>
+  <p class="intro">Sign up and start posting your wins!</p>
 </div>
 <br>
 <div class="primary-button">
-  <p >
+  <p>
     <a href="https://github.com/Anx450z/TinyWinApp" class="button-text">contribute</a>
+    <%= link_to "Privacy", static_pages_privacy_path, class: "button-text" %>
+    <%= link_to "TOS", static_pages_tos_path, class: "button-text" %>
   </p>
 </div>

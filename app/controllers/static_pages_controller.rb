@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def tos
   end
+
+  def about
+  end
 end

@@ -56,10 +56,11 @@
   color: rgb(0, 140, 255);;
   transition-duration: 0.4s;
   transition-timing-function:ease-in-out;
+  padding-right: 20px;
 }
 
 .button-text:hover{
-  text-decoration: bold;
+  font-size: 20px;
   color: rgb(21, 21, 21);
 }
 
@@ -68,15 +69,17 @@
   font-weight: 900;
   font-size: 30px;
   cursor: pointer;
-  color: rgb(0, 0, 0);;
+  color: rgb(255, 89, 0);;
 }
 
 .welcome{
+  padding-top: 70px;
+  text-align: center;
   font-weight: 900;
   font-size: 50px;
-  text-align: center;
 }
 
 .intro{
+  padding: 20px;
   text-align: center;
 }
