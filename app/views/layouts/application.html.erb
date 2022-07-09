@@ -11,11 +11,11 @@
   </head>
 
   <body>
-    <header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
+    <header>
+      <div>
         <%= link_to "TinyWin",static_pages_about_path, id: "logo" %>
         <nav>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="top-options">
             <li><%= link_to "Home", root_path, class: "button-text" %></li>
             <li><%= link_to "Help", static_pages_help_path, class: "button-text" %></li>
             <li><%= link_to "Log in", "#", class: "button-text" %></li>
@@ -23,7 +23,7 @@
         </nav>
       </div>
     </header>
-    <div class="container">
+    <div>
       <%= yield %>
     </div>
   </body>

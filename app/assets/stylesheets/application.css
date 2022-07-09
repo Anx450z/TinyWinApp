@@ -53,10 +53,10 @@
   text-decoration: none;
   font-weight: 900;
   cursor: pointer;
-  color: rgb(0, 140, 255);;
+  color: rgb(0, 140, 255);
   transition-duration: 0.4s;
   transition-timing-function:ease-in-out;
-  padding-right: 20px;
+  padding: 20px;
 }
 
 .button-text:hover{
@@ -65,6 +65,7 @@
 }
 
 #logo{
+  padding: 30px;
   text-decoration: none;
   font-weight: 900;
   font-size: 30px;
