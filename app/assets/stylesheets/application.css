@@ -5,7 +5,9 @@
 }
 
 .home-button{
-  margin: 20px;
+  position: relative;
+  bottom: 10px;
+  left: 40px;
   padding: 10px;
   text-align: center;
   color: aliceblue;
@@ -35,8 +37,8 @@
   color: rgb(21, 21, 21);
 }
 
-.para,.heading{
-  padding: 5px 20px;
+.para,.heading, .demo{
+  padding: 10px 40px;
 }
 
 .heading{
@@ -44,7 +46,6 @@
 }
 
 .demo{
-  padding: 0px 20px;
   font-size: 20px;
   color: rgb(61, 168, 255);;
 }
@@ -60,12 +61,12 @@
 }
 
 .button-text:hover{
-  font-size: 20px;
+  font-size: 17px;
   color: rgb(21, 21, 21);
 }
 
 #logo{
-  padding: 30px;
+  padding: 40px;
   text-decoration: none;
   font-weight: 900;
   font-size: 30px;
@@ -83,4 +84,22 @@
 .intro{
   padding: 20px;
   text-align: center;
+}
+
+.bottom-options{
+  position: absolute;
+  bottom: 10px;
+}
+.bottom-options li{
+  display: inline;
+}
+
+.top-options{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.top-options li{
+  display: inline;
 }
