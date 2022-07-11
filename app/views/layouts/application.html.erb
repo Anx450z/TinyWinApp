@@ -18,7 +18,7 @@
           <ul class="top-options">
             <li><%= link_to "Home", root_path, class: "button-text" %></li>
             <li><%= link_to "Help", static_pages_help_path, class: "button-text" %></li>
-            <li class="button-shape"><%= link_to "Log in", "#", class: "home-button-text" %></li>
+            <li class="button-shape"><%= link_to "Log in", "#", class: "button-shape-text" %></li>
           </ul>
         </div>
       </header>
@@ -28,7 +28,7 @@
     </div>
     <div id="footer">
       <footer>
-        Copyright &copy <%=Time.now.year %> TinyWin
+        Copyright &copy <%= Time.now.year %> TinyWin
       </footer>
     </div>
   </body>
