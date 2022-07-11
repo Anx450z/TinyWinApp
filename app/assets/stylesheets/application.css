@@ -1,11 +1,13 @@
+@import 'home.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
 }
+
 .button-shape{
-  padding: 8px;
+  padding: 8px 16px;
   text-align: center;
   color: aliceblue;
   background-color: rgb(93, 180, 251);
@@ -16,7 +18,6 @@
   width: fit-content;
   border: 3px solid rgb(0, 140, 255);
 }
-
 .button-shape:hover{
   background-color: rgb(251, 162, 97);
   border: 3px solid rgb(255, 89, 0);
@@ -24,7 +25,6 @@
 
 .button-text{
   font-weight: 900;
-  cursor: pointer;
   color: rgb(0, 140, 255);
   transition-duration: 0.4s;
   transition-timing-function:ease-in-out;
@@ -34,12 +34,6 @@
 .button-text:hover{
   font-size: 17px;
   color: rgb(21, 21, 21);
-}
-
-.home-button{
-  position: fixed;
-  bottom: 10px;
-  left: 40px;
 }
 
 .button-shape-text{
@@ -57,71 +51,7 @@
   padding: 10px 40px;
 }
 
-.heading{
-  font-size: 50px;
-}
-
 .demo{
   font-size: 20px;
   color: rgb(61, 168, 255);;
-}
-
-.para{
-  text-align: justify;
-}
-
-#logo{
-  position: relative;
-  left: 40px;
-  top: 20px;
-  font-weight: 900;
-  font-size: 30px;
-  cursor: pointer;
-  color: rgb(255, 89, 0);;
-}
-
-.welcome{
-  padding-top: 70px;
-  text-align: center;
-  font-weight: 900;
-  font-size: 50px;
-}
-
-.intro{
-  padding: 20px;
-  text-align: center;
-}
-
-.bottom-options{
-  position: fixed;
-  bottom: 10px;
-}
-.bottom-options li{
-  display: inline;
-}
-
-.top-options{
-  margin: 10px;
-  position: absolute;
-  top: 20px;
-  right: 10px;
-}
-
-.top-options li{
-  display: inline;
-}
-
-#footer footer{
-  position: fixed;
-  right: 30px;
-  bottom: 20px;
-}
-
-.background-image{
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  background-image: url("background.png");
-  height: 300px;
-  width: 100%;
 }

@@ -1,10 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
-  font-family: 'Poppins', sans-serif;
+#logo{
+  position: relative;
+  left: 40px;
+  top: 20px;
+  font-weight: 900;
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(255, 89, 0);;
+}
+
+.home-button{
+  position: fixed;
+  bottom: 10px;
+  left: 40px;
+}
+
+.para{
+  text-align: justify;
+}
+
+.heading{
+  font-size: 50px;
 }
 
 .welcome{
+  padding-top: 70px;
+  text-align: center;
   font-weight: 900;
-  color: aqua;
+  font-size: 50px;
+}
+
+.intro{
+  padding: 20px;
+  text-align: center;
+}
+
+.bottom-options{
+  position: fixed;
+  bottom: 10px;
+}
+.bottom-options li{
+  display: inline;
+  text-shadow: 1px 1px 4px rgb(255, 255, 255);
+}
+
+.top-options{
+  margin: 10px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.top-options li{
+  display: inline;
+}
+
+
+#footer footer{
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  text-shadow: 1px 1px 4px rgb(255, 255, 255);
+}
+
+.background-image{
+  z-index: -1;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("background.png");
+  height: 300px;
+  width: 100%;
+}
+
+.container{
+  position: relative;
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+}
+
+.sign-up{
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 30px;
+  margin-top: 100px;
+  background-color: rgb(251, 162, 97);
+  border: 3px solid rgb(255, 89, 0);
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.sign-up-text{
+  font-weight: bold;
+  transition-duration: 0.4s;
+  transition-timing-function:ease-in-out;
+  color: rgb(0, 0, 0);
+}
+
+.sign-up-text:hover{
+ font-size: 30px; 
 }
