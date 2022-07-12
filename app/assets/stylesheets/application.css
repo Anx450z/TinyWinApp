@@ -4,6 +4,8 @@
 *{
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
+  transition-duration: 0.4s;
+  transition-timing-function:ease-in-out;
 }
 
 .button-shape{
@@ -13,8 +15,6 @@
   background-color: rgb(93, 180, 251);
   font-weight: bold;
   border-radius: 25px;
-  transition-duration: 0.4s;
-  transition-timing-function:ease-in-out;
   width: fit-content;
   border: 3px solid rgb(0, 140, 255);
 }
@@ -26,8 +26,6 @@
 .button-text{
   font-weight: 900;
   color: rgb(0, 140, 255);
-  transition-duration: 0.4s;
-  transition-timing-function:ease-in-out;
   padding: 20px;
 }
 
@@ -39,8 +37,6 @@
 .button-shape-text{
   cursor: pointer;
   color: aliceblue;
-  transition-duration: 0.4s;
-  transition-timing-function:ease-in-out;
 }
 
 .button-shape-text:hover{

@@ -94,8 +94,6 @@
 
 .sign-up-text{
   font-weight: bold;
-  transition-duration: 0.4s;
-  transition-timing-function:ease-in-out;
   color: rgb(0, 0, 0);
 }
 
